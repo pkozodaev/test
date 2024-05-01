@@ -4,6 +4,7 @@ project(test_static_shared)
 set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 add_subdirectory(log_facade)
 add_subdirectory(shrd_lib)
